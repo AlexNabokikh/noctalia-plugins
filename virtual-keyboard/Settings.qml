@@ -16,7 +16,7 @@ ColumnLayout {
     // Local state - track changes before saving
     property string valueLayout: pluginApi?.pluginSettings?.layout || pluginApi?.manifest?.metadata?.defaultSettings?.layout || "qwerty"
     property string valueStyle: pluginApi?.pluginSettings?.size || pluginApi?.manifest?.metadata?.defaultSettings?.size || "compact"
-
+    
     spacing: Style.marginM
 
     FolderListModel {
@@ -24,7 +24,7 @@ ColumnLayout {
         folder: "file://" + Settings.configDir + "plugins/virtual-keyboard/layouts/"
         nameFilters: ["*.json"]
     }
-
+    
     NComboBox {
         id: layouts
         label: pluginApi?.tr("settings.layout.label")
@@ -40,7 +40,7 @@ ColumnLayout {
         Item {
             width: 0
             height: 0
-
+            
             FileView {
                 path: model.filePath
 
@@ -92,7 +92,7 @@ ColumnLayout {
         // Update the plugin settings object
         pluginApi.pluginSettings.layout = root.valueLayout;
         pluginApi.pluginSettings.size = root.valueStyle;
-
+        
         // Save to disk and reload keyboard
         if (pluginApi.pluginSettings.enabled == true) {
             pluginApi.pluginSettings.enabled = false
