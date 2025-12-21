@@ -1,7 +1,7 @@
 {
   "id": "fancy-audiovisualizer",
   "name": "Fancy Audiovisualizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minNoctaliaVersion": "3.7.2",
   "author": "Noctalia Team",
   "license": "MIT",

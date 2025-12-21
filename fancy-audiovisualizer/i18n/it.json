@@ -7,7 +7,9 @@
     "rotationSpeed": "Schnelllaufdrehzahl",
     "sensitivity": "Ndjeshmëri",
     "showBars": "Zeige Balken",
+    "showBars-description": "Prikaži kružne audio trake",
     "showRings": "Halka ng Pagpapakita",
+    "showRings-description": "Prikaži reaktivne prstene u sredini.",
     "title": "Mga Setting ng Visualizer"
   }
 }

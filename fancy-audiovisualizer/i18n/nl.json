@@ -7,7 +7,9 @@
     "rotationSpeed": "Rotatiesnelheid",
     "sensitivity": "Gevoeligheid",
     "showBars": "Toon balken",
+    "showBars-description": "Geef cirkelvormige audiobalken weer",
     "showRings": "Showringen",
+    "showRings-description": "Reactieve ringen in het midden weergeven",
     "title": "Visualisatie-instellingen"
   }
 }

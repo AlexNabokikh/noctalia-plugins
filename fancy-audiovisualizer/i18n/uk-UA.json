@@ -7,7 +7,9 @@
     "rotationSpeed": "Швидкість обертання",
     "sensitivity": "Чутливість",
     "showBars": "Показати бари",
+    "showBars-description": "Відобразити круглі аудіо бари",
     "showRings": "Показові ринги",
+    "showRings-description": "Відображати реактивні кільця в центрі",
     "title": "Налаштування візуалізатора"
   }
 }

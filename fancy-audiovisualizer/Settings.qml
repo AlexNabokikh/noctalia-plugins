@@ -28,7 +28,7 @@ ColumnLayout {
   NToggle {
     Layout.fillWidth: true
     label: pluginApi?.tr("settings.showRings") ?? "Show Rings"
-    description: pluginApi?.tr("settings.showRings.description") ?? "Display reactive rings in the center"
+    description: pluginApi?.tr("settings.showRings-description") ?? "Display reactive rings in the center"
     checked: root.valueShowRings
     onToggled: checked => root.valueShowRings = checked
   }
@@ -37,7 +37,7 @@ ColumnLayout {
   NToggle {
     Layout.fillWidth: true
     label: pluginApi?.tr("settings.showBars") ?? "Show Bars"
-    description: pluginApi?.tr("settings.showBars.description") ?? "Display circular audio bars"
+    description: pluginApi?.tr("settings.showBars-description") ?? "Display circular audio bars"
     checked: root.valueShowBars
     onToggled: checked => root.valueShowBars = checked
   }
