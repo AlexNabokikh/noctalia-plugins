@@ -152,11 +152,11 @@ Item {
   }
 
   IpcHandler {
-    target: "plugin:cheatsheet"
+    target: "plugin:hyprland-cheatsheet"
     function toggle() {
       console.log("Main: IPC toggle wywołany");
       if (pluginApi) {
-        runGenerator(); 
+        runGenerator();
         pluginApi.withCurrentScreen(screen => pluginApi.openPanel(screen));
       }
     }

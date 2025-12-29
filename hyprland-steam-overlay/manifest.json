@@ -1,11 +1,11 @@
 {
-  "id": "steam-overlay",
-  "name": "Steam Overlay",
-  "version": "1.3.0",
+  "id": "hyprland-steam-overlay",
+  "name": "Steam Overlay (Hyprland)",
+  "version": "1.4.0",
   "minNoctaliaVersion": "3.6.0",
   "author": "blacku",
   "license": "MIT",
-  "description": "Steam overlay with automatic window management and chat notifications",
+  "description": "Steam overlay with automatic window management and chat notifications for Hyprland. Requires Hyprland window manager.",
   "entryPoints": {
     "main": "Main.qml",
     "barWidget": "BarWidget.qml",

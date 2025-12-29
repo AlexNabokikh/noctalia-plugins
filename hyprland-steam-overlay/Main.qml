@@ -220,7 +220,7 @@ Item {
 
   // IPC Handler
   IpcHandler {
-    target: "plugin:steam-overlay"
+    target: "plugin:hyprland-steam-overlay"
 
     function toggle() {
       console.log("SteamOverlay:", pluginApi?.tr("main.ipc_received"));

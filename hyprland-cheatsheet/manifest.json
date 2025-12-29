@@ -1,11 +1,11 @@
 {
-  "id": "cheatsheet",
-  "name": "Cheatsheet",
-  "version": "1.0.0",
+  "id": "hyprland-cheatsheet",
+  "name": "Keybind Cheatsheet (Hyprland)",
+  "version": "1.1.0",
   "minNoctaliaVersion": "3.6.0",
   "author": "blacku",
   "license": "MIT",
-  "description": "Dynamic keyboard shortcuts cheatsheet for Hyprland",
+  "description": "Dynamic keyboard shortcuts cheatsheet that reads and displays Hyprland keybindings. Requires Hyprland window manager.",
   "entryPoints": {
     "main": "Main.qml",
     "barWidget": "BarWidget.qml",

@@ -164,7 +164,7 @@ Rectangle {
         var ipc = Qt.createQmlObject('
           import Quickshell.Io
           Process {
-            command: ["qs", "ipc", "-c", "noctalia-shell", "call", "plugin:steam-overlay", "toggle"]
+            command: ["qs", "ipc", "-c", "noctalia-shell", "call", "plugin:hyprland-steam-overlay", "toggle"]
             running: true
           }
         ', root, "ipcProcess");
