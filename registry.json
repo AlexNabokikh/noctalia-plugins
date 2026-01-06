@@ -192,8 +192,9 @@
       "author": "Lokize",
       "description": "Monitor Steam game prices and get notified when they reach your target price",
       "minNoctaliaVersion": "3.6.0",
+      "license": "MIT",
       "tags": [],
-      "lastUpdated": "2026-01-05T09:24:08-03:00"
+      "lastUpdated": "2026-01-06T00:44:53-05:00"
     },
     {
       "id": "todo",
