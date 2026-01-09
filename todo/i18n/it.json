@@ -24,6 +24,12 @@
       "add_button": "Idagdag",
       "placeholder": "Gib ein neues To-do-Element ein..."
     },
+    "edit_todo": {
+      "cancel_button": "Annulla",
+      "placeholder": "Entra il testo dell'attività da fare",
+      "save_button": "Salva",
+      "title": "Modifica Todo"
+    },
     "empty_state": {
       "message": "Nema stavki popisa zadataka."
     },
@@ -32,7 +38,8 @@
       "title": "Lista zadań"
     },
     "todo_item": {
-      "delete_button_tooltip": "Fshij"
+      "delete_button_tooltip": "Fshij",
+      "edit_button_tooltip": "Modifica"
     }
   },
   "settings": {
