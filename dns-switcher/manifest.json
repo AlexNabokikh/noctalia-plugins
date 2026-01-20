@@ -3,6 +3,10 @@
   "name": "DNS Switcher",
   "version": "1.0.0",
   "description": "DNS Manager",
+  "tags": [
+    "Bar",
+    "Network"
+  ],
   "author": "Ronin-CK",
   "license": "MIT",
   "minNoctaliaVersion": "4.0.0",
